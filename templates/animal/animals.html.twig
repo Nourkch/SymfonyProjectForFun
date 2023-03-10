@@ -1,0 +1,12 @@
+<table border="2">
+	<tr>
+		<td>ID</td>
+		<td>Nom</td>
+	</tr>
+	<tr>
+		{% for i in animals %}
+			<td>{{i.id}}</td>
+			<td>{{i.name}}</td>
+		</tr>
+	{% endfor %}
+</table>
